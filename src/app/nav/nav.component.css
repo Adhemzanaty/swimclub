@@ -1,0 +1,183 @@
+p{
+    font-size: 12px;
+}
+.r-active{
+    background-color: #004dff;
+    border-radius: 30px;
+}
+
+.nav1-bg{
+    background-color: #004dff;
+    color: white;
+    font-weight: 500;
+}
+.time-nav{
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 14px 20px 0px 20px;
+  
+}
+
+.brand-nav i{
+    font-size: 13px;
+    height: 100%;
+    padding: 18px 15px 0px 18px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+.my-f{
+    border-left: 1px solid  rgba(255, 255, 255, 0.1);
+
+}
+
+
+.email-div h6{
+    padding: 5px 10px 0px 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+
+}
+
+.email-div i{
+    background-color: #004dff;
+    font-size: 30px;
+    padding: 13px ;
+    border-radius: 50% 0% 50% 50%;
+    color: white;
+}
+.email-div{
+    display: flex;
+}
+.email-div div{
+    display: inline-block;
+}
+.email-div p{
+    color: gray;
+    font-size: 12px;
+    padding: 0px 10px 10px 10px;
+
+}
+
+
+.nav2-bg{
+    background-color: #ebf1ff;
+    padding: 15px 20px;
+}
+
+.sec-nav img{
+    width: 150px;
+}
+.sec-nav {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.sec2-nav{
+    margin-top: 10px;
+
+}
+
+.my-btn button{
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 40%;
+
+
+}
+.my-btn{
+    padding: 10px 0 0 0 ;
+
+}
+.my-btn i{
+    padding: 0 0 0 3px ;
+    font-size: 10px; 
+}
+
+.nav-bg{
+    background-color: #212529;
+}
+.nav-bg a{
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.navbar-toggler {
+background-color: white;
+}
+
+@media all and (max-width: 992px) and (min-width: 786px){
+
+    .sec-nav {
+        border-right:none;
+    }
+        
+}
+
+@media all and (max-width: 786px) and (min-width: 576px) {
+
+    .time-nav{
+        border-right: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+      
+    }
+
+
+    .brand-nav{
+        text-align: center !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    }
+
+    .sec-nav {
+        border-right:none;
+    }
+        
+
+
+}
+
+@media all and (max-width: 576px){
+
+    .time-nav{
+        border-right: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+      
+    }
+
+
+    .brand-nav{
+        text-align: center !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    }
+
+    /* .email-div{
+        display: none;
+    } */
+
+    .my-btn button{
+        border-radius: 50px;
+        font-size: 14px;
+        font-weight: 300;
+        width: 60%;
+    
+    
+    }
+    .sec-nav {
+        border-right:none;
+    }
+    .my-btn{
+        padding: 0px 0 0 0 ;
+    
+    }
+    .sec-nav{
+    text-align: center;
+
+    }
+
+
+
+
+
+}

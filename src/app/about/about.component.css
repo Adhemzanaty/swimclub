@@ -1,0 +1,316 @@
+.my-bg{
+    background-image: url(../../assets/bg.jpg);
+    height: 50vh;
+    background-size: cover;
+}
+.dark-bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 15, 51, 0.8);
+}
+.dark-bg h1{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.dark-bg h6{
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    padding: 10px;
+
+}
+.arrow-style{
+    color: white;
+    font-size: 11px;
+    padding: 0 10px;
+}
+
+
+
+
+/*************************** second section *************************************/
+
+.second-section{
+
+    padding: 60px 20px 30px 20px;
+}
+.styled-h-second-section{
+    color: #0d6efd;
+    font-size: 13px;
+    font-weight: 400;
+}
+.styled-h-second-section::before{
+    content: "";
+    padding: 1px 3px 0 3px;
+    margin: 0 5px 0 10px;
+    background-color: #0d6efd;
+}
+.second-section-first h3{
+    padding: 0 10px 10px 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+}
+.second-section-first{
+    padding: 20px 20px 20px 60px;
+}
+.second-section-first p{
+    color: gray;
+    font-size: 12px;
+    padding: 0px 10px 10px 10px;
+    line-height: 1.8;
+
+}
+.email-div h6{
+    padding: 5px 10px 0px 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+
+}
+
+.email-div i{
+    background-color: #004dff;
+    font-size: 30px;
+    padding: 13px ;
+    border-radius: 10px;
+    color: white;
+}
+.email-div{
+    display: flex;
+}
+.email-div div{
+    display: inline-block;
+}
+.child-img img{
+    width: 65%;
+
+}
+.child-img{
+    text-align: center;
+
+}
+
+/*************************** third section *************************************/
+
+.third-section{
+    background-image: url(../../assets/bg5.avif);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.sec-dark-bg{
+    height: 100%;
+    padding: 0 50px;
+    background-color: rgba(0, 15, 51, 0.8);
+    transition: all 1s;
+}
+.sec-dark-bg:hover{
+    background-color: rgba(0, 77, 255, 0.8);
+    color: white;
+}
+.sec-dark-bg:hover i{
+    color: white;
+}
+.sec-dark-bg:hover .small-colore::after{
+    color: white;
+}
+
+.sec-dark-bg i{
+    padding: 10px;
+    font-size: 70px;
+    color: #0d6efd;
+    transition: all 1s;
+
+    
+}
+
+.sec-dark-bg h6{
+    padding: 10px 10px 0 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+.sec-dark-bg p{
+    padding: 0px 10px;
+    font-size: 11px;
+    color: whitesmoke;
+    font-weight: 300;
+}
+.small-colore::after{
+    content: "--";
+    color: #004dff;
+    padding-left: 5px;
+    transition: all 1s;
+
+}
+.sec-dark-bg div{
+    padding: 150px 10px 10px 0px;
+}
+
+/*************************** fourth section *************************************/
+
+.styled-h-after-second-section::after{
+    content: "";
+    padding: 1px 3px 0 3px;
+    margin: 0 10px 0 5px;
+    background-color: #0d6efd;
+}
+.team-div h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px;
+}
+.team-div p{
+    font-size: 11px;
+    font-weight: 300;
+    padding: 2px 10px;
+    margin: 0;
+    line-height: 1.8;
+    color: gray;
+}
+.second-team-div img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+}
+.second-team-div h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 10px 10px 0px 10px ;
+    margin: 0;
+}
+.second-team-div p{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 2px 10px;
+    margin: 0;
+    color: gray;
+}
+.second-team-div{
+    padding: 5px 20px;
+    position: relative;
+}
+.second-team-div i{
+    position: absolute;
+    bottom: 85px;
+    left: 50px;
+    font-size: 12px;
+    color: white;
+    background-color: #004dff;
+    padding: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/**********************fifth section ****************/
+
+.card-info img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+.card-info h6{
+    padding:30px 0 3px 14px;
+    font-size: 16px;
+    margin: 0;
+}
+.card-info .d-flex p{
+    padding:1px 0 0px 14px;
+    color: gray;
+    font-size: 11px;
+    margin: 0;
+}
+.card-info p{
+    padding: 0px 15px 10px 15px;
+    font-size: 12px;
+    color: gray;
+}
+.stars-div{
+    padding: 0 15px;
+}
+.stars-div i{
+    color: goldenrod;
+    font-size: 12px;
+    padding: 4px;
+}
+.stars-div::after{
+    content: "(5.0)";
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 600;
+}
+.card-info{
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 10px;
+    margin: 5px;
+
+}
+.my-section .second-section-first{
+    padding: 20px 0;
+}
+.my-section{
+    background-color: #e3ecff;
+    padding: 70px 10px;
+}
+.satar-img{
+    position: absolute;
+    bottom: -15px;
+    right: 0px;
+}
+.card-info .satar-img{
+    width: 90px;
+    height: 90px;
+}
+.my-section  .fa-chevron-left{
+    background-color: #004dff;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50%;
+    position: absolute;
+    right: 130px;
+    top: -70px;
+    transition: all 0.5s;
+}
+.my-section  .fa-chevron-left:hover{
+    background-color: white;
+    color: #004dff;
+}
+.my-section  .fa-chevron-right{
+    background-color: #004dff;
+    color: white;
+    padding: 15px 18px;
+    border-radius: 50%;
+    position: absolute;
+    right: 75px;
+    top: -70px;
+    transition: all 0.5s;
+}
+.my-section  .fa-chevron-right:hover{
+    background-color: white;
+    color: #004dff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:310px){
+
+    .card-info .satar-img{
+        width: 50px;
+        height: 50px;
+    }
+}
